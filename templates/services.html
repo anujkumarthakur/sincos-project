@@ -1,0 +1,72 @@
+{% extends 'base.html' %}
+
+{%load static %}
+
+{% block content %}
+      <section>
+         <div id="head">
+            <div class="line">
+               <h1>Our Amazing Services </h1>
+            </div>
+         </div>
+         <div id="content">
+            <div class="line">
+               <div class="margin">
+                  <div class="s-12 m-6 l-4">
+                     <div class="content-block margin-bottom">
+                        <i class="icon-paperplane_ico icon2x"></i>
+                        <h3>Lightweight</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                        </p>
+                     </div>
+                  </div>
+                  <div class="s-12 m-6 l-4">
+                     <div class="content-block margin-bottom">
+                        <i class="icon-display_screen icon2x"></i>
+                        <h3>Responsive</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                        </p>
+                     </div>
+                  </div>
+                  <div class="s-12 m-6 l-4">
+                     <div class="content-block margin-bottom">
+                        <i class="icon-heart icon2x"></i>
+                        <h3>Intuitive</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- GALLERY -->	
+         <div id="third-block">
+            <div class="line">
+               <h2>Service Images</h2>
+               <div class="margin">
+                  <div class="s-12 m-6 l-3">
+                     <img src="{% static 'img/third-small.jpg' %}">      
+                     <p class="subtitile">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                     </p>
+                  </div>
+                  <div class="s-12 m-6 l-3">
+                     <img src="{% static 'img/second-small.jpg' %}">      
+                     <p class="subtitile">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                     </p>
+                  </div>
+                  <div class="s-12 m-6 l-3">
+                     <img src="{% static 'img/third-small.jpg' %}">      
+                     <p class="subtitile">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                     </p>
+                  </div>
+                  <div class="s-12 m-6 l-3">
+                     <img src="{% static 'img/fourth-small.jpg' %}">      
+                     <p class="subtitile">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      {% endblock %}
