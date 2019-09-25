@@ -1,0 +1,125 @@
+{% extends 'productbase.html' %}
+
+{% load static %}
+
+{% block content %}
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+table#t01 {
+  width: 100%;    
+  background-color: #f1f1c1;
+  margin-left:70px;
+}
+</style>
+
+<div class="spacer" style=" height:100px;"></div>
+
+<div class="ui middle aligned stackable grid container">
+		<div class="row">
+			<div class="eight wide column">
+				
+				<h1 class="ui huge header" style="margin-left:70px;">Wrap around system</h1>
+				<h4 class="ui huge header" style="margin-left:70px;">Product Description</h4><br>
+				<p style="margin-left:70px;"><font size="3">This XFC-GB automatic wrap-around packing machine is a 3 in 
+                1 wrap-around case packer consisting of main packer and product feeding system. 
+                The product feeding, carton forming, packing in, carton sealing, finished carton discharge 
+                all could be done by this machine automatically.</font></p>
+
+				
+				<h4 class="ui huge header" style="margin-left:70px;">Application</h4><br>
+                <p style="margin-left:70px;"><font size="3">Automatic wrap-around packing machine is widely used in food, 
+                daily and chemistry industries, such as milk powder, beer, beverage, instant noodle, detergent, 
+                boxed detergent powder, soap, etc.</font></p>
+				
+                <p style="margin-left:70px;"><font size="4">1.PLC, touch screen and photocell adopt imported unit with UG certificate. Hot melt gluing machine is from American Nordson.</font></p><br>
+				<p style="margin-left:70px;"><font size="4">2.Cylinder and valves have the selection of domestic and imported.</font></p><br>
+				<p style="margin-left:70px;"><font size="4">3. Touch screen operation is easy and clear, and production and error information both can be displayed on the screen.</font></p><br>
+				<p style="margin-left:70px;"><font size="4">4. The wrap-around case packer is equipped with sensors, which alarms and stops when safety door opens or error occurs.</font></p><br>
+                <p style="margin-left:70px;"><font size="4">5. Compact design and stainless steel structure is not only reducing the space but also beautiful.</font></p><br>
+                <h4 class="ui huge header" style="margin-left:70px;">Features</h4><br>
+
+
+			</div>
+			
+			    <div class="six wide right floated column">
+				    <img src="{% static 'img/p7.jpg' %}" class="ui medium centered fluid image" style="width:500px;height:600px;"/>
+			    </div>
+                <div class="container">
+                    <table id="t01">
+                        <tr>
+                            <th>Automation Grade</th>
+                            <th>Automatic</th> 
+
+                        </tr>
+                        <tr>
+                            <td>Voltage (Volt)</td>
+                            <td>440 V</td>
+
+                        </tr>
+                        <tr>
+                            <td>Frequency (Hertz)</td>
+                            <td>50 Hz</td>
+
+                        </tr>
+                        <tr>
+                            <td>Condition</td>
+                            <td>New</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Drive Type</td>
+                            <td>Electric</td>
+                        </tr>
+                        <tr>
+                            <td>Machine speed</td>
+                            <td>50 to 300 packets / min.</td>
+                        </tr>
+                        <tr>
+                            <td>Electric Motor</td>
+                            <td>1.5 HP 3Phase / AC</td>
+                        </tr>
+                        <tr>
+                            <td>Transformer</td>
+                            <td>50V</td>
+                        </tr>
+                        <tr>
+                            <td>Total load</td>
+                            <td>1.75kw</td>
+                        </tr>
+                        <tr>
+                            <td>Dimension</td>
+                            <td>Width 40-125mm Length 75-225mm Height 40-100mm</td>
+                        </tr>
+                        <tr>
+                            <td>Film</td>
+                            <td>Polyester Laminated with LLPDE, HDPE, Foil Laminates, Heat Sealable Plain : Pearlised, BOPP, Heat S</td>
+                        </tr>
+                        <tr>
+                            <td>Net wt</td>
+                            <td>1000kgs (Approx.)</td>
+                        </tr>
+                    </table>
+                </div>
+
+			</div>
+					
+		</div>
+		
+		<div class="row">
+		</div>
+	
+<div class="spacer"></div>
+
+{% endblock %}

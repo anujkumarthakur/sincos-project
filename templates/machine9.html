@@ -1,0 +1,43 @@
+{% extends 'productbase.html' %}
+
+{% load static %}
+
+{% block content %}
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<div class="spacer" style=" height:100px;"></div>
+
+<div class="ui middle aligned stackable grid container">
+		<div class="row">
+			<div class="eight wide column">
+				
+				<h3 class="ui huge header" style="margin-left:70px;">Vision Guided system</h3>
+				<p style="margin-left:70px;"><font size="3">In a deflashing workcell, camera, lighting, and software 
+                combine with four-axis robot to perform process what you want..</font></p>
+
+                <p style="margin-left:70px;"><font size="3">Among the most common tasks in the industrial 
+                environment is picking objects. Objects often must be picked and placed to move them from one 
+                stage of industrial processing to another. Robots have proven effective in pick and place environments 
+                where all objects are of a similar size and their orientation can be reliably predicted.</font></p>
+
+				
+				
+			</div>
+			
+			<div class="six wide right floated column">
+				<img src="{% static 'img/products/Primarypackaging/p12.jpg' %}" class="ui medium centered fluid image" style="width:500px;height:600px;"/>
+			</div>
+		
+		</div>
+		
+		<div class="row">
+		</div>
+	
+<div class="spacer"></div>
+
+{% endblock %}

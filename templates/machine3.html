@@ -1,0 +1,105 @@
+{% extends 'productbase.html' %}
+
+{% load static %}
+
+{% block content %}
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+table#t01 {
+  width: 100%;    
+  background-color: #f1f1c1;
+  margin-left:70px;
+}
+</style>
+
+<div class="spacer" style=" height:100px;"></div>
+
+<div class="ui middle aligned stackable grid container">
+		<div class="row">
+			<div class="eight wide column">
+				
+				<h3 class="ui huge header" style="margin-left:70px;">FW(Flow Wrap)-</h3>
+				<p style="margin-left:70px;"><font size="3">Cupcake ipsum dolor sit amet dessert lollipop cupcake. Bear claw topping jelly-o cookie pie. Liquorice lemon drops gingerbread chupa chups carrot cake. Tiramisu pie bonbon candy canes.
+				Candy canes gingerbread dragée chupa chups chocolate bar. Gummies jelly-o chocolate tootsie roll fruitcake biscuit dessert ice cream candy.</p>
+				</font>	
+                <table id="t01">
+					<tr>
+						<th>Automation Grade</th>
+						<th>Automatic</th> 
+
+					</tr>
+					<tr>
+						<td>Voltage (Volt)</td>
+						<td>440 V</td>
+
+					</tr>
+					<tr>
+						<td>Frequency (Hertz)</td>
+						<td>50 Hz</td>
+
+					</tr>
+					<tr>
+						<td>Condition</td>
+						<td>New</td>
+					</tr>
+				    
+					<tr>
+						<td>Drive Type</td>
+						<td>Electric</td>
+					</tr>
+					<tr>
+						<td>Machine speed</td>
+						<td>50 to 300 packets / min.</td>
+					</tr>
+					<tr>
+						<td>Electric Motor</td>
+						<td>1.5 HP 3Phase / AC</td>
+					</tr>
+					<tr>
+						<td>Transformer</td>
+						<td>50V</td>
+					</tr>
+					<tr>
+						<td>Total load</td>
+						<td>1.75kw</td>
+					</tr>
+					<tr>
+						<td>Dimension</td>
+						<td>Width 40-125mm Length 75-225mm Height 40-100mm</td>
+					</tr>
+					<tr>
+						<td>Film</td>
+						<td>Polyester Laminated with LLPDE, HDPE, Foil Laminates, Heat Sealable Plain : Pearlised, BOPP, Heat S</td>
+					</tr>
+					<tr>
+						<td>Net wt</td>
+						<td>1000kgs (Approx.)</td>
+					</tr>
+				</table>
+			</div>
+			
+			<div class="six wide right floated column">
+				<img src="{% static 'img/products/Primarypackaging/p3.jpg' %}" class="ui medium centered fluid image" style="width:500px;height:600px;"/>
+			</div>
+		
+		</div>
+		
+		<div class="row">
+		</div>
+	
+<div class="spacer"></div>
+
+{% endblock %}

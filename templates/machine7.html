@@ -1,0 +1,37 @@
+{% extends 'productbase.html' %}
+
+{% load static %}
+
+{% block content %}
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<div class="spacer" style=" height:100px;"></div>
+
+<div class="ui middle aligned stackable grid container">
+		<div class="row">
+			<div class="eight wide column">
+				
+				<h3 class="ui huge header" style="margin-left:70px;">Material Conveying System</h3>
+				<p style="margin-left:70px;">SinCos Material conveying systems for bulk material containers 
+				and packaging are critical to the effective transfer of material during production operations.</p>
+				
+				
+			</div>
+			
+			<div class="six wide right floated column">
+				<img src="{% static 'img/products/Primarypackaging/p7.jpg' %}" class="ui medium centered fluid image" style="width:500px;height:600px;"/>
+			</div>
+		
+		</div>
+		
+		<div class="row">
+		</div>
+	
+<div class="spacer"></div>
+
+{% endblock %}

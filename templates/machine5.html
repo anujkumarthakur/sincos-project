@@ -1,0 +1,43 @@
+{% extends 'productbase.html' %}
+
+{% load static %}
+
+{% block content %}
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<div class="spacer" style=" height:100px;"></div>
+
+<div class="ui middle aligned stackable grid container">
+		<div class="row">
+			<div class="eight wide column">
+				
+				<h1 class="ui huge header" style="margin-left:70px;">Tapping System</h1>
+				<h4 class="ui huge header" style="margin-left:70px;">Product Description</h4><br>
+				<p style="margin-left:70px;"><font size="3">SinCos Material conveying systems for bulk material 
+				containers and packaging are critical to the effective transfer of material during production operations.</font></p>
+				
+				<h4 class="ui huge header" style="margin-left:70px;">Machine features:</h4><br>
+				<p style="margin-left:70px;"><font size="4">• The machine is highly automated with PLC controlled .</font></p><br>
+				<p style="margin-left:70px;"><font size="4">• Carton Sealing and Strapping in single go.</font></p><br>
+				<p style="margin-left:70px;"><font size="4">• Can synchronized with auto packaging line.</font></p><br>
+				<p style="margin-left:70px;"><font size="4">• Also used as stand alone machine.</font></p><br>
+				<p style="margin-left:70px;"><font size="4">• Easy height adjustable for carton</font></p><br>
+			</div>
+			
+			<div class="six wide right floated column">
+				<img src="{% static 'img/products/Primarypackaging/p4.jpg' %}" class="ui medium centered fluid image" style="width:500px;height:600px;"/>
+			</div>
+		
+		</div>
+		
+		<div class="row">
+		</div>
+	
+<div class="spacer"></div>
+
+{% endblock %}
