@@ -69,6 +69,10 @@ def machine11(request):
 def machine12(request):
     return render(request,'machine12.html')
 
+def machine13(request):
+    return render(request,'machine13.html')
+
+
 
 
 

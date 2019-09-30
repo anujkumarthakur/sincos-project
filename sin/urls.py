@@ -21,6 +21,6 @@ urlpatterns = [
         path('machine9',views.machine9,name='machine9'),
         path('machine10',views.machine10,name='machine10'),
         path('machine11',views.machine11,name='machine11'),
-        path('machine12',views.machine12,name='machine12')
-        
+        path('machine12',views.machine12,name='machine12'),
+        path('machine13',views.machine13,name='machine13')
         ]
